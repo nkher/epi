@@ -12,14 +12,6 @@ public class TrafficElement implements Comparable<TrafficElement> {
 		this.volume = vol;
 	}
 	
-//	public boolean lessThanVol(TrafficElement te) {
-//		return volume < te.volume;
-//	}
-//	
-//	public boolean equalsTime(TrafficElement te) {
-//		return this.time == te.time;
-//	}
-	
 	public String toString() {
 		return "[" + this.time + ", " + this.volume + "]";
 	}
