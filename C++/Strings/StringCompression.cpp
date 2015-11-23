@@ -5,7 +5,7 @@ using namespace std;
 
 string run_length_encoding(const string& str) {
 
-  int count = 0;
+  int count = 1;
   char prev = str[0];
   string res;
 
