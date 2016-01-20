@@ -1,4 +1,4 @@
-package bstnode
+package bst
 
 import "fmt"
 
@@ -27,4 +27,16 @@ func Inorder(root *BstNode) {
     fmt.Print(root.Data, " ")
     Inorder(root.Right)
   }
+}
+
+func Height(root *BstNode) int {
+  if root == nil {
+    return 0
+  }
+  leftHeight := Height(root.Left)
+  rightHeight := Height(root.Right)
+  if leftHeight > rightHeight {
+    return leftHeight+1
+  }
+  return rightHeight+1
 }
