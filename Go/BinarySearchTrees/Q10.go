@@ -18,7 +18,7 @@ func main() {
   fmt.Println(root.Right.Left.Data) // for verification
 }
 
-func createMinimalBST(array []int) *bst.BstNode {
+func CreateMinimalBST(array []int) *bst.BstNode {
     return addToTree(array, 0, len(array)-1)
 }
 

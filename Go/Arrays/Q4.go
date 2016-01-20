@@ -14,7 +14,7 @@ func main() {
     fmt.Println("Boardgame Winnable ?? : ", checkWinnable(boardGame))
 }
 
-func checkWinnable(boardGame []int) bool {
+func CheckWinnable(boardGame []int) bool {
   furthestReach := 0
   for i:=0; i<=furthestReach && furthestReach < len(boardGame); i++ {
       if (boardGame[i] + i > furthestReach) {

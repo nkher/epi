@@ -7,7 +7,7 @@ func main() {
     fmt.Println(generatePrimes(20))
 }
 
-func generatePrimes(n int) []int {
+func GeneratePrimes(n int) []int {
     var primes []int
     isPrime := make([]bool, n+1)
 

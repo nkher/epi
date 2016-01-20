@@ -26,7 +26,7 @@ func main() {
     fmt.Println(ans.Data, ans.Right.Data)
 }
 
-func findFirstOccurence(node *bst.BstNode, key int) *bst.BstNode {
+func FindFirstOccurence(node *bst.BstNode, key int) *bst.BstNode {
     if node == nil {
       return nil
     } else if key == node.Data {

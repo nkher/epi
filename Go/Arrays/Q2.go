@@ -10,7 +10,7 @@ func main() {
     fmt.Println("After Incrementing : ", bigInteger)
 }
 
-func increment(bigInteger []int) []int {
+func Increment(bigInteger []int) []int {
 
     n := len(bigInteger)
     bigInteger[n-1] = bigInteger[n-1] + 1 // add 1 to the last digit

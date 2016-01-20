@@ -24,7 +24,7 @@ func main() {
     fmt.Println("First Greater is : ",  firstGreater.Data)
 }
 
-func findFirstLargerKey(node *bst.BstNode, key int) *bst.BstNode {
+func FindFirstLargerKey(node *bst.BstNode, key int) *bst.BstNode {
     var firstSoFar, curr *bst.BstNode = nil, node
 
     for curr != nil {
