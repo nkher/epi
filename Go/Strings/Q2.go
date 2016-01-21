@@ -14,7 +14,7 @@ func main() {
     }
     fmt.Println()
 
-    var str2 = []rune{'a', 'b', 's', 'b', 'r', 'a', 'c', 't', ' ', ' ', ' ', ' ', ' ', ' '}
+    var str2 = []rune{'a', 'b', 's', 'b', 'r', 'a', 'c', 't'}
     str2 = ReplaceAndRemove(str2)
 
     for i:=0; i< len(str2); i++ {
