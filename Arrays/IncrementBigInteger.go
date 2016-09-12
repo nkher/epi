@@ -6,11 +6,14 @@ func main() {
 
     var bigInteger = []int{9, 9, 9}
     fmt.Println("Before Incrementing : ", bigInteger)
-    bigInteger = increment(bigInteger)
+    bigInteger = IncrementBigInteger(bigInteger)
     fmt.Println("After Incrementing : ", bigInteger)
 }
 
-func Increment(bigInteger []int) []int {
+// This function takes in an input integer which represents
+// a number. The function adds one to the number and returns
+// the result in the form of an array.
+func IncrementBigInteger(bigInteger []int) []int {
 
     n := len(bigInteger)
     bigInteger[n-1] = bigInteger[n-1] + 1 // add 1 to the last digit
