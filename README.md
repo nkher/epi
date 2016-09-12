@@ -3,7 +3,7 @@ What is repository about ?
 ---------------------------
 This repository contains the solutions to the book Elements of Programming interviews (EPI) in Golang. This work is in progress. 
 
-Purchase the book [Here.](https://goo.gl/p5i6hU)
+Purchase the book [Here.](https://goo.gl/olyYnM)
 
 Why this repository ? 
 ---------------------------
