@@ -17,6 +17,10 @@ func main() {
 
 func RemoveDuplicatesFromSortedArray(sortedArr []int) {
 
+  if len(sortedArr) == 0 || sortedArr == nil {
+    return
+  }
+
   var lastValue int = sortedArr[0]
   writeIndex := 1
 

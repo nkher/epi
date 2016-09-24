@@ -17,6 +17,10 @@ func main() {
 
 func DeleteKeyFromArray(key int, array []int) {
 
+  if len(array) == 0 || array == nil {
+    return
+  }
+
   writeIndex := 0
 
   for i:=0; i < len(array); i++ {
