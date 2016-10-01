@@ -2,7 +2,7 @@ package main
 
 import (
     "fmt"
-    "../Structures"
+    "../Structures/bst"
 )
 
 func main() {
